@@ -1,1 +1,147 @@
-hi
+
+
+
+/* Positioning for left-aligned "Startup 3" and right-aligned navigation links */
+.right-nav {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* Rest of your CSS */
+/* ... */
+
+
+/* Positioning for left-aligned "Startup 3" and right-aligned navigation links */
+.left-nav {
+    float: left;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.right-nav {
+    float: right;
+}
+
+/* Rest of your CSS */
+/* ... */
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2F1893;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+header {
+    background-color: #2F1893;
+    margin-top:-10%;
+    color: #fff;
+   
+    padding: 50px 0;
+}
+#startup3 {
+    color: white; /* Set text color to white */
+}
+
+/* Style the navigation buttons */
+.nav-button {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+.nav-button:hover {
+    color: #e64a19; /* Change the color on hover */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff5722;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Align the sections */
+.left-align {
+    text-align: left;
+    padding: 20px;
+}
+
+.right-align {
+    text-align: right;
+    padding: 20px;
+}
+
+/* Additional styles can be added here */
+.right-align p {
+    display: inline;
+    margin: 0;
+}
+
+.right-align button {
+    display: inline;
+}
+.custom-link {
+    
+    color: #25DAC5;
+
+    
+}
+.twitter-button {
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+    background: #1DA1F2;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.signup-button {
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+    background: #482BE7;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    cursor: pointer;
+}
